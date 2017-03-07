@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>addPhone</servlet-name>
+    <servlet-class>com.phone.servlet.AddPhoneServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addPhone</servlet-name>
+    <url-pattern>/AddPhoneServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>deletePhone</servlet-name>
+    <servlet-class>com.phone.servlet.DeletePhoneServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>deletePhone</servlet-name>
+    <url-pattern>/DeletePhoneServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>updatePhone</servlet-name>
+    <servlet-class>com.phone.servlet.UpdatePhoneServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>updatePhone</servlet-name>
+    <url-pattern>/UpdatePhoneServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>queryPhone</servlet-name>
+    <servlet-class>com.phone.servlet.QueryPhoneServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>queryPhone</servlet-name>
+    <url-pattern>/QueryPhoneServlet</url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <servlet-name>jumpToUpdateServlet</servlet-name>
+    <servlet-class>com.phone.servlet.JumpToUpdateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>jumpToUpdateServlet</servlet-name>
+    <url-pattern>/JumpToUpdateServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>/index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

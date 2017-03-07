@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;solarSystem.solarFrame&apos; to &apos;SolarFrame&apos;&#x0D;&#x0A;- Original project: &apos;solarSystem&apos;&#x0D;&#x0A;- Original element: &apos;solarSystem.solarFrame&apos;&#x0D;&#x0A;- Renamed element: &apos;solarSystem.SolarFrame&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;solarFrame&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;solarSystem{solarFrame.java[solarFrame" matchStrategy="1" name="SolarFrame" qualified="false" references="true" similarDeclarations="false" stamp="1472970399265" textual="false" version="1.0"/>
+</session>
